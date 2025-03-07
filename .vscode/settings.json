@@ -5,6 +5,7 @@
         "string": "cpp",
         "unordered_map": "cpp",
         "xstring": "cpp",
-        "xhash": "cpp"
+        "xhash": "cpp",
+        "utility": "cpp"
     }
 }
