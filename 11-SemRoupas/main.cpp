@@ -1,3 +1,8 @@
+/*
+ * Nome: Rodrigo de Freitas Lima
+ * NUSP: 12547510
+*/
+
 #include <iostream>
 #include <vector>
 
