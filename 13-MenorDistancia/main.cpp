@@ -30,8 +30,7 @@ int main()
             cin >> sujeiras[j].first >> sujeiras[j].second;
         }
 
-        vector<vector<int>> dp(numSujeiras + 1, vector<int>(numSujeiras + 1, -1)); // Distancia entre sujeiras 
-        dp[posInicial.first][posInicial.second] = 0; // Inicializa a posicao inicial com 0
+        vector<int> distancia
     }
 
     return 0;
