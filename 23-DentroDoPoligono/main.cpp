@@ -66,6 +66,14 @@ int main()
 
             if(primeiroX != segundoX) // Reta horizontal
             {
+                if(primeiroY == ponto.second)
+                {
+                    if((primeiroX < ponto.first && segundoX > ponto.first) || (primeiroX > ponto.first && segundoX < ponto.first))
+                    {
+                        numInterseccoesVerticais = 1;
+                        break;
+                    }
+                }
                 continue;
             }
 
@@ -81,6 +89,12 @@ int main()
             else if(primeiroY < ponto.second && segundoY < ponto.second) // Reta vertical abaixo do ponto
             {
                 continue;
+            }
+
+            if(primeiroX == ponto.first) // Reta vertical passando pelo ponto
+            {
+                numInterseccoesVerticais = 1;
+                break;
             }
 
             numInterseccoesVerticais++;
